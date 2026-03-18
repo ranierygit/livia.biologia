@@ -1,4 +1,4 @@
-import { BookOpen, FlaskConical, LayoutTemplate, Microscope, Target } from "lucide-react";
+import { BookOpen, FlaskConical, LayoutTemplate, Microscope, MonitorPlay, Target } from "lucide-react";
 
 export default function Services() {
   const mainServices = [
@@ -29,6 +29,11 @@ export default function Services() {
       title: "Aulas Temáticas e Projetos",
       icon: <BookOpen className="w-6 h-6 text-primary" />,
       description: "Desenvolvimento de projetos interdisciplinares, gincanas e práticas de laboratório para dinamizar o currículo.",
+    },
+    {
+      title: "Aulas Online",
+      icon: <MonitorPlay className="w-6 h-6 text-primary" />,
+      description: "Acompanhamento escolar e reforço remoto ao vivo com lousa digital, disponível para alunos de qualquer região.",
     }
   ];
 
@@ -57,7 +62,7 @@ export default function Services() {
         </div>
 
         {/* Secondary Services */}
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-3 gap-6">
           {secondaryServices.map((service, idx) => (
             <div key={idx} className="bg-surface rounded-[32px] p-8 sm:p-10 border border-sand/30 flex sm:items-start flex-col sm:flex-row gap-6 hover:shadow-md transition-all">
               <div className="bg-bg w-14 h-14 shrink-0 rounded-2xl flex items-center justify-center border border-sand/50">
