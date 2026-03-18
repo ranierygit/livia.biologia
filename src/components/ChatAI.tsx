@@ -76,7 +76,7 @@ export default function ChatAI() {
               <Bot className="w-5 h-5 text-primary" />
             </div>
             <div>
-              <h3 className="font-bold text-text">Assistente Bio IA</h3>
+              <h3 className="font-bold text-text">Assistente Bio IA <span className="text-secondary font-normal text-xs ml-2">(disponível em breve)</span></h3>
               <p className="text-xs text-secondary font-medium flex items-center gap-1.5">
                 <span className="w-2 h-2 bg-secondary rounded-full inline-block animate-pulse"></span>
                 Online
