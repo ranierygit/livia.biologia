@@ -37,7 +37,7 @@ export default function Footer() {
               <span className="text-sand/70 text-sm">📍 Garanhuns — PE</span>
               <span className="text-sand/70 text-sm">📧 liivia.clemente@gmail.com</span>
               <a href="#contato" className="text-secondary font-medium hover:text-white transition-colors text-sm underline underline-offset-4 mt-2">
-                Agende sua aula experimental
+                Agende sua reunião
               </a>
             </nav>
           </div>
