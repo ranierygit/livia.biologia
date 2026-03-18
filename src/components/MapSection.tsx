@@ -22,7 +22,7 @@ export default function MapSection() {
 
         <div className="flex flex-wrap justify-center gap-4 mt-8">
           <div className="bg-bg px-5 py-2.5 rounded-full border border-sand flex items-center gap-2 text-sm font-medium text-text">
-            <GraduationCap className="w-4 h-4 text-primary" /> Escolas estaduais
+            <GraduationCap className="w-4 h-4 text-primary" /> Escolas
           </div>
           <div className="bg-bg px-5 py-2.5 rounded-full border border-sand flex items-center gap-2 text-sm font-medium text-text">
             <BookOpen className="w-4 h-4 text-primary" /> Aulas particulares
